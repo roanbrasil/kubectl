@@ -1,4 +1,4 @@
-FROM alpine:3.17
+FROM arm64v8/alpine
 MAINTAINER Serhiy Mitrovtsiy <mitrovtsiy@ukr.net>
 
 ARG KUBE_VERSION="v1.29.3"
